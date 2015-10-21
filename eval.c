@@ -10,5 +10,7 @@ printf("Enter second number: ");
 scanf("%d",&secondno);
 result=firstno+secondno;
 printf("Addition of numbers are %d",result);
+result=firstno-secondno;
+printf("subtraction of numbers is %d",result);
 getch();
 }
