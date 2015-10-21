@@ -5,10 +5,10 @@ void main()
 int firstno,secondno,result;
 clrscr();
 printf("Enter first number: ");
-scanf("%d",&first);
+scanf("%d",&firstno);
 printf("Enter second number: ");
-scanf("%d",&second);
-result=first+second;
+scanf("%d",&secondno);
+result=firstno+secondno;
 printf("Addition of numbers are %d",result);
 getch();
 }
